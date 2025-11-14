@@ -35,4 +35,45 @@ Example dataset: U.S. flights from 2022‑2025 (~25 million rows) — includes s
 ---
 
 ## 📁 Project Structure
+flight-delay-etl/
+├── data/
+│ ├── raw/
+│ │ └── flights_raw.csv
+│ └── processed/
+│ └── flights_cleaned.csv
+├── scripts/
+│ ├── extract.py
+│ ├── transform.py
+│ ├── load.py
+│ └── run_pipeline.py
+├── db/
+│ └── flights.db # SQLite or connection details
+├── logs/
+│ └── pipeline.log
+└── README.md
 
+---
+
+## ✨ Key Skills
+
+- Building scalable ingestion and cleaning pipelines  
+- Feature engineering on datetime and categorical variables  
+- Designing SQL schema and using indexes  
+- Structuring Python code for modular ETL tasks  
+- (Optional) Visual storytelling via dashboarding
+
+---
+
+## 📌 Status
+
+⏳ Pipeline design phase — dataset selected, extraction scripts next.
+
+---
+
+## 🔮 Next Steps
+
+- Finalise dataset choice and download  
+- Write `extract.py` and `transform.py` scripts  
+- Build database schema and load script  
+- Run full pipeline and start exploratory queries  
+- Publish SQL results with visual dashboard
