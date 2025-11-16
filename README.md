@@ -35,6 +35,8 @@ Example dataset: U.S. flights from 2022‑2025 (~25 million rows) — includes s
 ---
 
 ## 📁 Project Structure
+
+```
 flight-delay-etl/
 ├── data/
 │ ├── raw/
@@ -51,6 +53,7 @@ flight-delay-etl/
 ├── logs/
 │ └── pipeline.log
 └── README.md
+```
 
 ---
 
