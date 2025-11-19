@@ -1,0 +1,11 @@
+2025-11-19 07:45:13,933 - [INFO] - ====== STARTING PIPELINE RUN ======
+2025-11-19 07:45:13,934 - [INFO] - Starting data extraction...
+2025-11-19 07:45:14,181 - [INFO] - Extraction successful. Loaded 13295 rows and 21 columns.
+2025-11-19 07:45:14,181 - [INFO] - Extract step completed. Rows: 13295
+2025-11-19 07:45:14,181 - [INFO] - Starting data transformation...
+2025-11-19 07:45:14,302 - [INFO] - Transformation completed successfully.
+2025-11-19 07:45:14,302 - [INFO] - Transform step completed. Rows: 13295
+2025-11-19 07:45:14,302 - [INFO] - Starting data loading...
+2025-11-19 07:45:14,920 - [INFO] - Load completed successfully
+2025-11-19 07:45:14,921 - [INFO] - Load step completed
+2025-11-19 07:45:14,921 - [INFO] - ====== PIPELINE COMPLETED SUCCESSFULLY ======
